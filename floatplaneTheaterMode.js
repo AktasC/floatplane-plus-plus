@@ -10,7 +10,8 @@
 // ==/UserScript==
 
 GM_addStyle(`
-.player-wrapper, .player-container { max-height: calc(100vh - 200px); max-width: calc(90vw - 100px) !important; margin: auto; }
+.player-container { max-height: 100% !important; max-width: 100% !important; }
+.inner-container { max-width: calc(80vw - 270px) !important; margin: auto;}
 `);
 
 /*
