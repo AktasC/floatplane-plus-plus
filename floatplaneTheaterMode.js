@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Floatplane Theater Mode
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/AktasC/floatplane-plus-plus
 // @version      1.0
 // @description  Ultrawide users retaliate against Luke Lafreniere
 // @author       AktasC
@@ -15,7 +15,9 @@ GM_addStyle(`
 `);
 
 /*
-** W.I.P
+** W.I.P aka Trial & Error
+.video-js, .vjs-tech, .video-js.vjs-fill { max-height: 90% !important; max-width: 90vw !important; }
 .sidebar, sidebar-inner, .sidebar-inner-main-nav { max-width: 220px !important; }
 .route-wrapper {max-width: calc(100vw - 110px) !important; }
+.player-wrapper { max-height: 100vh !important; max-width: 100vw !important; }
 */
