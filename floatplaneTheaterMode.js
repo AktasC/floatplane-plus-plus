@@ -11,7 +11,7 @@
 
 GM_addStyle(`
 .player-container { max-height: 100% !important; max-width: 100% !important; }
-.inner-container { max-width: calc(80vw - 270px) !important; margin: auto;}
+.inner-container { max-width: calc(100vh * (16/9)) !important; margin: auto; }
 `);
 
 /*
